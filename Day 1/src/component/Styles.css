@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 80%;
+    margin: auto ;
+    
+}
+
+#nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+#nav ol li{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+#main1{
+    border: 2px solid red;
+    height:  300px;
+    background-image: url("https://cdn.pixabay.com/photo/2023/12/06/14/39/snow-8433815_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
