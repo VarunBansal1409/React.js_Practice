@@ -1,0 +1,17 @@
+import React from 'react'
+
+const Child1 = (props) => {
+
+    console.log(props);
+    
+
+  return (
+    <div>
+        {
+            props.children
+        }
+    </div>
+  )
+}
+
+export default Child1
