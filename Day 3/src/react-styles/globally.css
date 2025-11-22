@@ -1,0 +1,34 @@
+:root{
+     --bg-color:#212529 ;
+     --text-color : #0dcaf0 ;
+}
+
+#main{
+    /* border: 2px solid red; */
+    height: 70px;
+    background-color: var(--bg-color);
+    color:  var(--text-color);
+}
+
+#main ol{
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin: auto;
+    height: inherit;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.section{
+  border: 3px solid;
+  height: 70vh;
+  background-image: url("../assests/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
