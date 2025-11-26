@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "name": "Admin",
+      "id": "1",
+      "designation": "Devops"
+    }
+  ]
+}

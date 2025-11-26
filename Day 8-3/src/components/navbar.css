@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.nav {
+    /* border: 2px solid; */
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343635;
+}
+
+.nav img{
+    height: 36px;
+}
+
+.nav svg{
+    height: 20px;
+    fill: #ebebeb;
+}
+
+.nav svg:hover{
+    fill: #b7b5b5;
+    cursor: pointer;
+}
+
+.logo{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 17%;
+}
+
+.ele{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 31%;
+    font-size: 20px;
+    color: #ebebeb;
+}
+
+.ele li a:hover{
+    color: #b7b5b5;
+    cursor: pointer;
+}
+
+.ele a:visited,
+.ele a:link,
+.ele a:active{
+    color: #ebebeb;
+    text-decoration: none;
+}
+
